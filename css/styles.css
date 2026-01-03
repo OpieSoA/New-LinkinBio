@@ -88,11 +88,52 @@ body {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s;
+    position: relative;
 }
 
 .links .icon:hover {
     color: #ff9100;
 }
+
+/* Tooltip */
+.links .icon .tooltip {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff9100; /* Discord */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, bottom 0.3s ease;
+}
+
+/* Flechita */
+.links .icon .tooltip::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #ff9100 transparent;
+}
+
+/* Mostrar tooltip */
+.links .icon:hover .tooltip {
+  opacity: 1;
+  bottom: -50px;
+}
+
+/* Hover específico Discord */
+/* .links .icon.discord:hover {
+  color: #5865F2;
+} */
 
 
 @media (max-width: 1200px) {
