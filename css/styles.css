@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url('./images/bg01.webp') no-repeat center center fixed;
+    background: url('./images/white.webp') no-repeat center center fixed;
     background-size: cover;
     color: #333;
     display: flex;
@@ -20,7 +20,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    background: #818181af;
+    background: #585858e7;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -40,7 +40,7 @@ body {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3.5px solid #ff9100ad;
+    border: 3.5px solid #FD5F65;
 }
 
 .info {
@@ -60,7 +60,7 @@ body {
     border-radius: 1em;
     padding: 0.3em 0.6em;
     color: #fff;
-    border: 1px solid #ff9100;
+    border: 1px solid #FD5F65;
 }
 
 .info p {
@@ -73,7 +73,7 @@ body {
     border-radius: 1em;
     padding: 0.3em 0.6em;
     color: #fff;
-    border: 1px solid #ff9100;
+    border: 1px solid #FD5F65;
 }
 
 .links {
@@ -92,7 +92,7 @@ body {
 }
 
 .links .icon:hover {
-    color: #ff9100;
+    color: #FD5F65;
 }
 
 /* Tooltip */
@@ -101,7 +101,7 @@ body {
   bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #ff9100; /* Discord */
+  background-color: #FD5F65; /* Discord */
   color: #fff;
   padding: 5px 10px;
   border-radius: 6px;
@@ -121,7 +121,7 @@ body {
   transform: translateX(-50%);
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent #ff9100 transparent;
+  border-color: transparent transparent #FD5F65 transparent;
 }
 
 /* Mostrar tooltip */
